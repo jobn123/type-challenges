@@ -1,0 +1,1 @@
+type MyParameters<T extends (...A: any[]) => any> = T extends (...A: infer P) => any ? P : never
