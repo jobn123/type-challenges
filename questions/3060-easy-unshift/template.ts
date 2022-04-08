@@ -1,0 +1,1 @@
+type Unshift<T extends unknown[], U extends any> = [U, ...T]
