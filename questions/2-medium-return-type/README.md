@@ -13,4 +13,3 @@ const fn = (v: boolean) => {
 
 type a = MyReturnType<typeof fn> // 应推导出 "1 | 2"
 ```
-
